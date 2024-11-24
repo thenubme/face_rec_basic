@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch FaceDetection",
+            "request": "launch",
+            "mainClass": "FaceDetection",
+            "classPaths": [
+                "lib/opencv-xxx.jar"
+            ],
+            "vmArgs": "-Djava.library.path=path/to/opencv/native/libs"
+        }
+    ]
+}
